@@ -6,7 +6,6 @@
     url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-
 .icon-work:before { content: "\eac9"; }
 .icon-project:before { content: "\eaf4"; }
 .icon-phone:before { content: "\ec7a"; }
@@ -50,11 +49,12 @@ span {
     margin: 0; 
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-weight: 500;
-    color: #607d8b;
+    color: rgba(44,80,80,0.9);
     line-height: 1.5;
 }
+
 
 .progress-list div {
     width: 100%;
@@ -88,35 +88,8 @@ hr {
 }
 
 .info-unit {
-    color: #666;
+    color: black;
     margin-bottom: 20px;
-}
-
-.remodal-img h3 {
-    float: left;
-    margin-bottom: 10px;
-}
-
-.remodal-img input {
-    float: left;
-    width: 480px;
-    height: 42px;
-    font-size: 20px;
-    padding: 6px;
-    color: #666;
-    
-}
-
-.remodal-img button {
-    float: right;
-    background: #607d8b;
-
-}
-
-.remodal-img button:hover{
-    float: right;
-    background: #607d8b;
-
 }
 
 
@@ -130,6 +103,7 @@ footer {
 }
 
 p {
+	color: black;
     line-height: 1.5;
 }
 
@@ -169,18 +143,6 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
-.weixin{
-    margin-top: 20px;
-    background-color: #e0eaf0;   
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.weixin img{
-    width: 200px;
-}
 
 .left-label {
     display: inline-block;
@@ -191,22 +153,21 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-image:url('../image/blue.jpg');
+    background-size: 100%;
     background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
-    width:160px;
-    height:160px;
+    background-repeat:no-repeat;
+    border:1px solid #607d8b;
+    width:140px;
+    height:195px;
 }
 
 
 .container {
     position: relative;
     margin: 0 auto;
-
     width: 1050px;
-    height: 1550px;
+    height: 1250px;
     background-color: white;
 
 }
@@ -229,13 +190,8 @@ progress::-moz-progress-value {
 
 }
 
-.info-header:hover {
-    background-color: #d4dee4;
-}
 
-.info-unit ul li:hover {
-    background-color: #d4dee4;
-}
+
 
 .info-header .unit-remove {
     float: right;
@@ -265,6 +221,7 @@ progress::-moz-progress-value {
 
 ul li{
     position: relative;
+	color:rgba(9,9,14,.92);
 }
 
  .experience-list .item-remove {
