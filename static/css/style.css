@@ -27,7 +27,10 @@
 span {
     display: inline-block;
 }
-
+a{
+   text-decoration:none;
+   color:grey;
+}
 .label-value{
     width: 200px;
     vertical-align: top;
